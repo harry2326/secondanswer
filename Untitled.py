@@ -8,6 +8,6 @@ import pandas as pd
 data = pd.read_csv("filedata.csv")
 print('filedata')
 setosa = data['demark'] == 'demark-1'
-print(data[setosa].describe())
+print(data[demark].describe())
 print('\ndemark-1')
 
